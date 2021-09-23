@@ -1,41 +1,42 @@
-# Stencil App Starter
+# ts-stencil-pokedex
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a9ee2935-3d5a-4609-9ae7-f16367d98f49/deploy-status)](https://condescending-sinoussi-e266e3.netlify.app/)
 
-Stencil is a compiler for building fast web apps using Web Components.
+A Stencil implementation of a Pokedex
 
-Stencil combines the best concepts of the most popular frontend frameworks into a compile-time rather than run-time tool.  Stencil takes TypeScript, JSX, a tiny virtual DOM layer, efficient one-way data binding, an asynchronous rendering pipeline (similar to React Fiber), and lazy-loading out of the box, and generates 100% standards-based Web Components that run in any browser supporting the Custom Elements v1 spec.
+### Code style
+[![Typescript](https://img.shields.io/badge/Typescript-white?logo=typescript&style=flat)](https://www.typescriptlang.org/)
+[![Stencil](https://img.shields.io/badge/Stencil-blue?logo=stencil&style=flat)](https://stenciljs.com/)
 
-Stencil components are just Web Components, so they work in any major framework or with no framework at all. In many cases, Stencil can be used as a drop in replacement for traditional frontend frameworks given the capabilities now available in the browser, though using it as such is certainly not required.
+### Cloning the repository
 
-Stencil also enables a number of key capabilities on top of Web Components, in particular Server Side Rendering (SSR) without the need to run a headless browser, pre-rendering, and objects-as-properties (instead of just strings).
-
-## Getting Started
-
-To start a new project using Stencil, clone this repo to a new directory:
-
-```bash
-npm init stencil app
+```shell
+git clone https://github.com/AntonioErdeljac/ts-stencil-pokedex.git
 ```
 
-and run:
+### Install packages
 
-```bash
-npm start
+```shell
+npm i
 ```
 
-To build the app for production, run:
+### Starting
 
-```bash
+```shell
+npm run start
+```
+
+### Building
+
+```shell
 npm run build
 ```
 
-To run the unit tests once, run:
 
-```
-npm test
-```
+### Available commands
 
-To run the unit tests and watch for file changes during development, run:
+Running commands with npm `npm run [command]`
 
-```
-npm run test.watch
-```
+| command            | description                                                                                                 |
+| :----------------- | :---------------------------------------------------------------------------------------------------------- |
+| `start`            | Starts a development instance of the app                                                                    |
+| `build`            | Builds production instance of the app                                                                       |
